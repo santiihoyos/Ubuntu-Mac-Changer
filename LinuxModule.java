@@ -33,7 +33,7 @@ public class LinuxModule{
                         + "sleep 1s\n"
                         + "sudo -S \"$@\" rfkill unblock all \n");
 
-                Process pro = Runtime.getRuntime().exec("chmod 777 .tempLixScrip.sh");
+                Runtime.getRuntime().exec("chmod 777 .tempLixScrip.sh");
 
                 out.close();
                 
