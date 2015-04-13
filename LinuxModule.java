@@ -9,7 +9,7 @@ import java.io.IOException;
  *
  * @author @santiihoyos
  */
-public class LinuxModule {
+public class LinuxModule{
 
     File scriptCreator(String MAC, String interfaz) throws InterruptedException, IOException {
 
