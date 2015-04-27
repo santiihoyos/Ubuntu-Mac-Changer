@@ -16,10 +16,9 @@ finally
 
   download https://github.com/santiihoyos/Ubuntu-Mac-Changer/releases/download/v0.3-beta-1/Ubuntu-MAC-changer.v0.3-beta1.jar
   
-VIDEO:
+VIDEO-TUTORIAL:
 https://www.youtube.com/watch?v=M_25r2vml8c
 
-Ver más en: http://www.iteramos.com/pregunta/16559/como-incrustar-un-video-en-github-readmemd
 
 
 Programa creado para facilitar el cambio de la dirección MAC de cualquier ordenador con sistema operativo Linux.
