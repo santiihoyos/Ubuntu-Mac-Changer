@@ -18,7 +18,7 @@ finally
   
 VIDEO:
 
-[![Alt text for your video](http://youtu.be/M_25r2vml8c/0.jpg)](http://youtu.be/M_25r2vml8c)
+[![text](https://www.youtube.com/watch?v=M_25r2vml8c/0.jpg)](http://youtu.be/M_25r2vml8c)
 
 Ver más en: http://www.iteramos.com/pregunta/16559/como-incrustar-un-video-en-github-readmemd
 
