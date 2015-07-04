@@ -23,8 +23,7 @@ public class LinuxModule{
 
                 out = new BufferedWriter(new FileWriter(".tempLixScrip.sh", true));
                 out.write("!/bin/bash\n"
-                        + "$USER - sudo with zenity password window\n"
-                        + "run:	adminex command\n"
+                        + "$USER - sudo with zenity password window\n"                        
                         + "zenity	--title=\"We need your authorization:\" --text=\"Change MAC requires authorization please enter the Administrator password:\" \\\n"
                         + "--entry --entry-text \"\" --hide-text \\\n"
                         + "|sudo -S \"$@\" rfkill block all\n"
@@ -33,7 +32,7 @@ public class LinuxModule{
                         + "sleep 1s\n"
                         + "sudo -S \"$@\" rfkill unblock all \n");
 
-                Runtime.getRuntime().exec("chmod 777 .tempLixScrip.sh");
+                Process pro = Runtime.getRuntime().exec("chmod 777 .tempLixScrip.sh");
 
                 out.close();
                 
