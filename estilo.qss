@@ -1,0 +1,66 @@
+QFrame#myFrame
+{
+    background: gainsboro;
+}
+QLabel
+{
+    font: 14px;
+    padding: 5px;
+}
+
+QComboBox
+{
+    font: 14px;
+    padding: 3px;
+}
+
+QLabel#Titulo
+{
+    height: 70px;
+    font: bold 18px;
+    padding: 10px;
+    text-align: center;
+    qproperty-alignment: AlignCenter;
+}
+
+QLineEdit
+{
+    text-align: center;
+    height: 25px;
+    font: 16px 'Arial';
+    padding: 3px;
+    qproperty-alignment: AlignCenter;
+}
+
+QPushButton
+{
+    padding: 10px;
+    font: 12px;
+}
+
+QPushButton#btnChange
+{
+    padding: 10px;
+    font:bold 14px "Arial";
+    color: green;
+    background-color: Black;
+}
+
+QTextEdit{
+    background-color: Transparent;
+    border-color: Transparent;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 1px;
+    font: 14px ;
+    color: black;
+}
+
+QPushButton:focus:Pressed
+{
+    background-color: #e0f2f1;
+}
+QPushButton:Hover
+{
+    background-color: #fafafa;
+}

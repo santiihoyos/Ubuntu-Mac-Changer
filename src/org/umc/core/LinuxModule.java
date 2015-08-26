@@ -1,4 +1,4 @@
-package MainPackage;
+package org.umc.core;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -11,7 +11,7 @@ import java.io.IOException;
  */
 public class LinuxModule{
 
-    File scriptCreator(String MAC, String interfaz) throws InterruptedException, IOException {
+    public File scriptCreator(String MAC, String interfaz) throws InterruptedException, IOException {
 
         File fichero = new File(".tempLixScrip.sh");
         BufferedWriter out = null;

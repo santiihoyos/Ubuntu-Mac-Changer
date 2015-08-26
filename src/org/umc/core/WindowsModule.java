@@ -1,4 +1,4 @@
-package MainPackage;
+package org.umc.core;
 
 
 public class WindowsModule {

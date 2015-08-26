@@ -1,5 +1,7 @@
-package MainPackage;
+package org.umc.gui.swing;
 
+import org.umc.core.Comun;
+import org.umc.core.LinuxModule;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -194,6 +196,10 @@ public class App extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    @Deprecated
+    /**
+     * Use mejor org.umc.Main
+     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
