@@ -9,6 +9,7 @@ import java.util.Random;
 
 /**
  *
+ * 
  * @author santiago
  */
 public class Comun {
