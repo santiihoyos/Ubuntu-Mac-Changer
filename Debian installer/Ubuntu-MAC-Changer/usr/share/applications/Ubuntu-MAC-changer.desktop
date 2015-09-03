@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ubuntu-MAC-changer
+Comment=Aplicación
+Exec=/usr/bin/Ubuntu-MAC-changer
+Icon=/usr/share/Ubuntu-MAC-changer/icono.png
+Terminal=false
+Type=Application
+Categories=Other

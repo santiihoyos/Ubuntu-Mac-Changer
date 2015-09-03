@@ -1,0 +1,10 @@
+Package: ubuntu-mac-changer
+Version: 1.1
+Section: https://github.com/santiihoyos/Ubuntu-Mac-Changer/releases
+Priority: optional
+Architecture: all
+Maintainer: santiihoyos <santiago.hoyos93@gmail.com>
+Installed-Size: 300
+Description: Cambia las direcciones MAC de tu Ubuntu de forma facil.
+ Este es un programa que permite cambiar la dirección MAC de un adaptador de internet
+ en Ubuntu de forma grafica.
