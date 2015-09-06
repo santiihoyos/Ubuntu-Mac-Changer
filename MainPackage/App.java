@@ -227,7 +227,7 @@ public class App extends javax.swing.JFrame {
 
                 Thread.sleep(1000); // Wait for the system to not go too fast.
 
-                Process r = Runtime.getRuntime().exec("./.tempLixScrip.sh"); // run the script Linux in Bash
+                Runtime.getRuntime().exec("./.tempLixScrip.sh"); // run the script Linux in Bash
 
                 Thread.sleep(1000);   
             }else {
