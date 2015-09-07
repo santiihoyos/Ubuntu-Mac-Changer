@@ -3,8 +3,8 @@ package MainPackage;
 import java.awt.Color;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import javax.swing.JRadioButton;
+import javax.swing.ComboBoxModel;
+import javax.swing.DefaultComboBoxModel;
 
 /**
  *
@@ -23,6 +23,7 @@ public class App extends javax.swing.JFrame {
         buttonGroup1.add(jRadioButton1);
         buttonGroup1.add(jRadioButton2);
 
+        jComboBox1.setEditable(false);
         jRadioButton1.setSelected(true);
 
     }
@@ -141,8 +142,8 @@ public class App extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jRadioButton2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
+                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel3)
@@ -252,15 +253,10 @@ public class App extends javax.swing.JFrame {
 
         jComboBox1.removeAllItems();
 
-        ArrayList<String> interfaceScan = comun.interfaceScan();
-
-        for (String interfaceScan1 : interfaceScan) {
-
-            jComboBox1.addItem(interfaceScan1);
-        }
+        ComboBoxModel<Object> modelo= new DefaultComboBoxModel<>(comun.interfaceScan().toArray());
+        jComboBox1.setModel(modelo);
 
         jComboBox1.removeItem("lo");  // borra la red de bucle local no tiene sentido que aparezca.
-
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -295,6 +291,7 @@ public class App extends javax.swing.JFrame {
             jComboBox1.setEnabled(true);
             jButton3.setEnabled(true);
             jTextField1.setEnabled(false);
+            jTextField1.setBackground(Color.white);
 
         }
 
