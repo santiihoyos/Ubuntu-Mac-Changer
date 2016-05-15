@@ -5,6 +5,7 @@ DOWNLOAD: https://github.com/santiihoyos/Ubuntu-Mac-Changer/releases/download/V1
 
 more info: https://github.com/santiihoyos/Ubuntu-Mac-Changer/releases
 
+now aviable on Launchpad: https://launchpad.net/ubuntu-mac-changer
 
 DEPENDENIES:
 
